@@ -1,0 +1,39 @@
+/* Estilo para o mapa do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.site-map-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.site-map {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.site-map li {
+    margin: 10px 0;
+    text-indent: 20px; /* Propriedade CSS obrigatória */
+    font-size: 18px;
+    color: #555;
+}
+
+.site-map ul {
+    margin-top: 5px;
+    margin-left: 20px;
+}

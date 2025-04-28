@@ -1,0 +1,60 @@
+/* Estilo para a página de promoções */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.promo-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.promo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.promo-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.promo-item h2 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.promo-item p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.price {
+    font-size: 20px;
+    color: #28a745;
+}
+
+.price del {
+    color: #d9534f; /* Propriedade CSS obrigatória */
+    margin-right: 10px;
+}

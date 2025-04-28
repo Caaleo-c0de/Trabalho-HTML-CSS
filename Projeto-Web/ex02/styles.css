@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.perfil {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.perfil h1 {
+    margin: 10px 0;
+}
+
+.perfil p {
+    margin: 10px 20px;
+    max-width: 400px;
+}
+
+.redes-sociais a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
